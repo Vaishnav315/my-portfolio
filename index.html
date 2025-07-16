@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
   <title>Vaishnav Nath | UI/UX Designer</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -142,6 +143,151 @@
         });
       }, 300);
     });
+=======
+  <title>My Portfolio</title>
+  <link href="css/style.css"rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="main-container">
+    <!-- Navigation bar -->
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="#">LOGO</a>
+      </div>
+      <div class="options">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About me</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact me</a>
+      </div>
+      <div class="hire-me">
+        <a href="#">Hire Me</a>
+      </div>
+    </nav>
+
+    <!-- Hero-section -->
+    <div class="hero-section">
+      <div class="left-content">
+        <p class="intro-text">Hi I am</p>
+        <h2 class="name">Mantri Prajyoth</h2>
+        <h1 class="title"><span>Full stack developer</span> </h1>
+
+        <div class="social-icons">
+          <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+          <a href="#"><img src="icons/linkedin-alt.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="icons/github-alt.svg" alt="GitHub"></a>
+          <a href="#"><img src="icons/facebook-f.svg" alt="Behance"></a>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn-hire">Hire Me</a>
+          <a href="#" class="btn-download">Download CV</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span>5+</span>
+            <p>Experiences</p>
+          </div>
+          <div class="stat">
+            <span>20+</span>
+            <p>Project done</p>
+          </div>
+          <div class="stat">
+            <span>80+</span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-image">
+        <img src="icons/lion.jpg" alt="Profile Image">
+      </div>
+    </div>
+
+    <!-- service page -->
+    <div class="container">
+      <!-- Services Header -->
+      <header class="services-header">
+        <h2 class="section-title">Services</h2>
+        <p class="section-subtitle">
+          I create exceptional digital experiences that blend beautiful design with seamless functionality. My services are tailored to bring your vision to life.
+        </p>
+      </header>
+
+      <!-- Services Section -->
+      <section class="services">
+        <div class="services-grid">
+          <div class="service-card from-left">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h3 class="service-title">App Design</h3>
+            <p class="service-description">
+              Creating intuitive and visually appealing mobile applications that provide exceptional user experiences across all devices and platforms.
+            </p>
+          </div>
+
+          <div class="service-card from-top">
+            <i class="fas fa-lightbulb service-icon"></i>
+            <h3 class="service-title">UX Strategy</h3>
+            <p class="service-description">
+              Developing comprehensive user experience strategies that align business goals with user needs through research and data-driven insights.
+            </p>
+          </div>
+
+          <div class="service-card from-right">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h3 class="service-title">Web Design</h3>
+            <p class="service-description">
+              Designing responsive and engaging websites that captivate audiences while delivering seamless navigation and optimal performance.
+            </p>
+          </div>
+
+          <div class="service-card from-left">
+            <i class="fas fa-code service-icon"></i>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-description">
+              Building responsive, interactive UIs using React, JavaScript (ES6+), Tailwind CSS, and modern design principles.
+            </p>
+          </div>
+
+          <div class="service-card from-bottom">
+            <i class="fas fa-database service-icon"></i>
+            <h3 class="service-title">Backend Development</h3>
+            <p class="service-description">
+              Creating scalable server-side applications using Node.js, Express, PostgreSQL, and RESTful API architecture.
+            </p>
+          </div>
+
+          <div class="service-card from-right">
+            <i class="fas fa-lock service-icon"></i>
+            <h3 class="service-title">Authentication & Security</h3>
+            <p class="service-description">
+              Implementing secure authentication with JWT, role-based access control, input validation, and session management.
+            </p>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const serviceCards = document.querySelectorAll('.service-card');
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        });
+      }, { threshold: 0.2 });
+
+      serviceCards.forEach(card => observer.observe(card));
+    });
+
+>>>>>>> 62e994c (intial commit)
   </script>
 </body>
 </html>

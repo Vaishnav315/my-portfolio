@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
-  <link href="css/style.css"rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/services.css" rel="stylesheet">
+  <link href="css/about.css" rel="stylesheet">
+  <link href="css/hero-section.css" rel="stylesheet">
+  <link href="css/experience.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
 </head>
 
 <body>
-  <div class= "main-container">
+  <div class="main-container">
+
     <!-- Navigation bar -->
     <nav class="nav-bar">
       <div class="logo">
@@ -30,15 +37,15 @@
     <!-- Hero-section -->
     <div class="hero-section">
       <div class="left-content">
-        <p class="intro-text">Hi I am</p>
-        <h2 class="name">Mantri Prajyoth</h2>
-        <h1 class="title"><span>Full stack developer</span> </h1>
+        <p class="intro-text">Hi, I am</p>
+        <h1 class="developer-name">Mantri Prajyoth</h1>
+        <h2 class="developer-title"><span>Full Stack Developer</span></h2>
 
         <div class="social-icons">
-          <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-          <a href="#"><img src="icons/linkedin-alt.svg" alt="LinkedIn"></a>
-          <a href="#"><img src="icons/github-alt.svg" alt="GitHub"></a>
-          <a href="#"><img src="icons/facebook-f.svg" alt="Behance"></a>
+          <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="icons/linkedin-alt.svg" alt="LinkedIn" /></a>
+          <a href="#"><img src="icons/github-alt.svg" alt="GitHub" /></a>
+          <a href="#"><img src="icons/facebook-f.svg" alt="Facebook" /></a>
         </div>
 
         <div class="hero-buttons">
@@ -63,13 +70,12 @@
       </div>
 
       <div class="right-image">
-        <img src="icons/lion.jpg" alt="Profile Image">
+        <img src="icons/lion.jpg" alt="Profile Image" />
       </div>
     </div>
 
-    <!-- service page -->
+    <!-- Services Page -->
     <div class="container">
-      <!-- Services Header -->
       <header class="services-header">
         <h2 class="section-title">Services</h2>
         <p class="section-subtitle">
@@ -77,7 +83,6 @@
         </p>
       </header>
 
-      <!-- Services Section -->
       <section class="services">
         <div class="services-grid">
           <div class="service-card from-left">
@@ -127,15 +132,96 @@
               Implementing secure authentication with JWT, role-based access control, input validation, and session management.
             </p>
           </div>
-
         </div>
       </section>
     </div>
+
+    <!-- About Section -->
+    <div class="about-header">
+      <div class="about-title">About Me</div>
+      <p class="about-subtitle">User Interface, User Experience & Video Editing</p>
+    </div>
+
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="icons/lion.jpg" alt="Profile or Work Image" />
+        </div>
+        <div class="about-content">
+          <p class="about-description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum rem amet cum, nihil porro temporibus praesentium nulla aspernatur. Vitae excepturi eum, vel quam asperiores iste accusantium minima neque maxime sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi facilis assumenda animi magni ex nostrum voluptatem, mollitia earum, aspernatur facere. Optio amet officiis magnam cum nulla facere accusamus delectus!Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo, voluptatibus earum nesciunt quo ipsum officiis quam natus, iure pariatur magnam fugiat. Dolorem, quod minima? Odio, dolor voluptatum? Optio, quasi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum sit veniam, molestiae vitae veritatis voluptas beatae doloribus soluta. Porro, suscipit fugiat? Tempora fugiat unde deserunt optio itaque adipisci nobis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere omnis exercitationem ab voluptates consequuntur et sit molestias provident id ea assumenda odit impedit ipsum 
+          </p>
+          <button class="about-hire-button"> Download CV </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    
+    <!-- Experience Section -->
+    <section class="experience-section">
+      <div class="experience-container">
+
+        <div class="skill">
+          <div class="outer-circle" data-percent="100">
+            <div class="inner-circle">
+              <i class="fa-brands fa-figma"></i>
+            </div>
+          </div>
+          <h3>100%</h3>
+          <p>Figma</p>
+        </div>
+
+        <div class="skill">
+          <div class="outer-circle" data-percent="100">
+            <div class="inner-circle">
+              <i class="fa-brands fa-adobe"></i>
+            </div>
+          </div>
+          <h3>100%</h3>
+          <p>Adobe XD</p>
+        </div>
+
+        <div class="skill">
+          <div class="outer-circle" data-percent="85">
+            <div class="inner-circle">
+              <i class="fa-solid fa-image"></i>
+            </div>
+          </div>
+          <h3>85%</h3>
+          <p>Adobe Photoshop</p>
+        </div>
+
+        <div class="skill">
+          <div class="outer-circle" data-percent="60">
+            <div class="inner-circle">
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+          </div>
+          <h3>60%</h3>
+          <p>Adobe Illustrator</p>
+        </div>
+
+        <div class="skill">
+          <div class="outer-circle" data-percent="90">
+            <div class="inner-circle">
+              <i class="fa-solid fa-video"></i>
+            </div>
+          </div>
+          <h3>90%</h3>
+          <p>Adobe Premiere</p>
+        </div>
+
+      </div>
+    </section>
   </div>
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const serviceCards = document.querySelectorAll('.service-card');
-
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
@@ -143,10 +229,39 @@
           }
         });
       }, { threshold: 0.2 });
-
       serviceCards.forEach(card => observer.observe(card));
     });
   </script>
-</body>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const circles = document.querySelectorAll(".outer-circle");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const circle = entry.target;
+          const targetPercent = parseInt(circle.dataset.percent);
+          let current = 0;
+
+          const animate = () => {
+            if (current <= targetPercent) {
+              circle.style.setProperty('--fill', current);
+              current++;
+              requestAnimationFrame(animate);
+            }
+          };
+
+          animate();
+          observer.unobserve(circle);
+        }
+      });
+    }, { threshold: 0.4 });
+
+    circles.forEach(circle => observer.observe(circle));
+  });
+</script>
+
+
+</body>
 </html>

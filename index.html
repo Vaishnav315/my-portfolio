@@ -4,14 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
+
+  <!-- Stylesheets -->
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/services.css" rel="stylesheet">
   <link href="css/about.css" rel="stylesheet">
   <link href="css/hero-section.css" rel="stylesheet">
   <link href="css/experience.css" rel="stylesheet">
 
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  
 </head>
 
 <body>
@@ -23,11 +25,11 @@
         <a href="#">LOGO</a>
       </div>
       <div class="options">
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About me</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact me</a>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about-me">About me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact me</a>
       </div>
       <div class="hire-me">
         <a href="#">Hire Me</a>
@@ -35,11 +37,11 @@
     </nav>
 
     <!-- Hero-section -->
-    <div class="hero-section">
+    <div class="hero-section" id="home">
       <div class="left-content">
         <p class="intro-text">Hi, I am</p>
         <h1 class="developer-name">Mantri Prajyoth</h1>
-        <h2 class="developer-title"><span>Full Stack Developer</span></h2>
+        <h2 class="developer-title"><span class="typing"></span></h2>
 
         <div class="social-icons">
           <a href="#"><img src="icons/instagram.svg" alt="Instagram" /></a>
@@ -75,11 +77,11 @@
     </div>
 
     <!-- Services Page -->
-    <div class="container">
+    <div class="container" id="services">
       <header class="services-header">
         <h2 class="section-title">Services</h2>
         <p class="section-subtitle">
-          I create exceptional digital experiences that blend beautiful design with seamless functionality. My services are tailored to bring your vision to life.
+          I create exceptional digital experiences that blend beautiful design with seamless functionality.
         </p>
       </header>
 
@@ -88,180 +90,154 @@
           <div class="service-card from-left">
             <i class="fas fa-mobile-alt service-icon"></i>
             <h3 class="service-title">App Design</h3>
-            <p class="service-description">
-              Creating intuitive and visually appealing mobile applications that provide exceptional user experiences across all devices and platforms.
-            </p>
+            <p class="service-description">Creating intuitive mobile apps for all platforms.</p>
           </div>
-
           <div class="service-card from-top">
             <i class="fas fa-lightbulb service-icon"></i>
             <h3 class="service-title">UX Strategy</h3>
-            <p class="service-description">
-              Developing comprehensive user experience strategies that align business goals with user needs through research and data-driven insights.
-            </p>
+            <p class="service-description">Aligning business goals with user needs through design.</p>
           </div>
-
           <div class="service-card from-right">
             <i class="fas fa-laptop-code service-icon"></i>
             <h3 class="service-title">Web Design</h3>
-            <p class="service-description">
-              Designing responsive and engaging websites that captivate audiences while delivering seamless navigation and optimal performance.
-            </p>
+            <p class="service-description">Building responsive, visually appealing websites.</p>
           </div>
-
           <div class="service-card from-left">
             <i class="fas fa-code service-icon"></i>
             <h3 class="service-title">Frontend Development</h3>
-            <p class="service-description">
-              Building responsive, interactive UIs using React, JavaScript (ES6+), Tailwind CSS, and modern design principles.
-            </p>
+            <p class="service-description">Interactive UIs with React, JS, and Tailwind CSS.</p>
           </div>
-
           <div class="service-card from-bottom">
             <i class="fas fa-database service-icon"></i>
             <h3 class="service-title">Backend Development</h3>
-            <p class="service-description">
-              Creating scalable server-side applications using Node.js, Express, PostgreSQL, and RESTful API architecture.
-            </p>
+            <p class="service-description">Scalable APIs with Node.js and PostgreSQL.</p>
           </div>
-
           <div class="service-card from-right">
             <i class="fas fa-lock service-icon"></i>
             <h3 class="service-title">Authentication & Security</h3>
-            <p class="service-description">
-              Implementing secure authentication with JWT, role-based access control, input validation, and session management.
-            </p>
+            <p class="service-description">JWT, RBAC, validation, and secure sessions.</p>
           </div>
         </div>
       </section>
     </div>
 
     <!-- About Section -->
-    <div class="about-header">
+    <div class="about-header" id="about-me">
       <div class="about-title">About Me</div>
-      <p class="about-subtitle">User Interface, User Experience & Video Editing</p>
+      <p class="about-subtitle">UI/UX & Video Editing</p>
     </div>
 
     <section class="about-section">
       <div class="about-container">
         <div class="about-image">
-          <img src="icons/lion.jpg" alt="Profile or Work Image" />
+          <img src="icons/lion.jpg" alt="Profile" />
         </div>
         <div class="about-content">
-          <p class="about-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum rem amet cum, nihil porro temporibus praesentium nulla aspernatur. Vitae excepturi eum, vel quam asperiores iste accusantium minima neque maxime sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi facilis assumenda animi magni ex nostrum voluptatem, mollitia earum, aspernatur facere. Optio amet officiis magnam cum nulla facere accusamus delectus!Lorem
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo, voluptatibus earum nesciunt quo ipsum officiis quam natus, iure pariatur magnam fugiat. Dolorem, quod minima? Odio, dolor voluptatum? Optio, quasi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum sit veniam, molestiae vitae veritatis voluptas beatae doloribus soluta. Porro, suscipit fugiat? Tempora fugiat unde deserunt optio itaque adipisci nobis.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere omnis exercitationem ab voluptates consequuntur et sit molestias provident id ea assumenda odit impedit ipsum 
-          </p>
-          <button class="about-hire-button"> Download CV </button>
+          <p class="about-description">I'm Mantri Prajyoth, a passionate and self-driven Full Stack Developer with a strong foundation in web technologies and a keen eye for clean UI/UX design. Currently pursuing my B.Tech at IIT Patna, I enjoy building scalable backend systems and dynamic frontend interfaces using modern technologies like React, Node.js, and PostgreSQL.
+
+Beyond coding, I have hands-on experience in UI/UX design and video editing, often blending creativity with technical precision. I believe in continuously learning, solving real-world problems, and contributing to impactful projects that make a difference.
+
+I’m actively seeking internship or freelance opportunities where I can apply my skills, collaborate with teams, and grow as a developer.
+</p>
+          <button class="about-hire-button">Download CV</button>
         </div>
       </div>
     </section>
 
-    <!-- Experience section -->
-    
     <!-- Experience Section -->
-    <section class="experience-section">
+    <section class="experience-section" id="portfolio">
       <div class="experience-container">
-
-        <div class="skill">
-          <div class="outer-circle" data-percent="100">
-            <div class="inner-circle">
-              <i class="fa-brands fa-figma"></i>
-            </div>
-          </div>
-          <h3>100%</h3>
-          <p>Figma</p>
-        </div>
-
-        <div class="skill">
-          <div class="outer-circle" data-percent="100">
-            <div class="inner-circle">
-              <i class="fa-brands fa-adobe"></i>
-            </div>
-          </div>
-          <h3>100%</h3>
-          <p>Adobe XD</p>
-        </div>
-
-        <div class="skill">
-          <div class="outer-circle" data-percent="85">
-            <div class="inner-circle">
-              <i class="fa-solid fa-image"></i>
-            </div>
-          </div>
-          <h3>85%</h3>
-          <p>Adobe Photoshop</p>
-        </div>
-
-        <div class="skill">
-          <div class="outer-circle" data-percent="60">
-            <div class="inner-circle">
-              <i class="fa-solid fa-pen-nib"></i>
-            </div>
-          </div>
-          <h3>60%</h3>
-          <p>Adobe Illustrator</p>
-        </div>
-
-        <div class="skill">
-          <div class="outer-circle" data-percent="90">
-            <div class="inner-circle">
-              <i class="fa-solid fa-video"></i>
-            </div>
-          </div>
-          <h3>90%</h3>
-          <p>Adobe Premiere</p>
-        </div>
-
+        <div class="skill"><div class="outer-circle" data-percent="100"><div class="inner-circle"><i class="fa-brands fa-figma"></i></div></div><h3>100%</h3><p>Figma</p></div>
+        <div class="skill"><div class="outer-circle" data-percent="100"><div class="inner-circle"><i class="fa-brands fa-adobe"></i></div></div><h3>100%</h3><p>Adobe XD</p></div>
+        <div class="skill"><div class="outer-circle" data-percent="85"><div class="inner-circle"><i class="fa-solid fa-image"></i></div></div><h3>85%</h3><p>Photoshop</p></div>
+        <div class="skill"><div class="outer-circle" data-percent="60"><div class="inner-circle"><i class="fa-solid fa-pen-nib"></i></div></div><h3>60%</h3><p>Illustrator</p></div>
+        <div class="skill"><div class="outer-circle" data-percent="90"><div class="inner-circle"><i class="fa-solid fa-video"></i></div></div><h3>90%</h3><p>Premiere</p></div>
       </div>
+    </section>
+
+    <!-- Contact Section Placeholder -->
+    <section id="contact" style="padding: 100px; text-align: center;">
+      <h2>Contact Me</h2>
+      <p>You can reach me at prajyoth2006@gmail.com</p>
     </section>
   </div>
 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Scroll reveal for services
       const serviceCards = document.querySelectorAll('.service-card');
-      const observer = new IntersectionObserver(entries => {
+      const cardObserver = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('show');
           }
         });
       }, { threshold: 0.2 });
-      serviceCards.forEach(card => observer.observe(card));
+      serviceCards.forEach(card => cardObserver.observe(card));
+
+      // Skill Circle Animation
+      const circles = document.querySelectorAll(".outer-circle");
+      const circleObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const circle = entry.target;
+            const targetPercent = parseInt(circle.dataset.percent);
+            let current = 0;
+            const animate = () => {
+              if (current <= targetPercent) {
+                circle.style.setProperty('--fill', current);
+                current++;
+                requestAnimationFrame(animate);
+              }
+            };
+            animate();
+            circleObserver.unobserve(circle);
+          }
+        });
+      }, { threshold: 0.4 });
+      circles.forEach(circle => circleObserver.observe(circle));
+
+      // Smooth scroll for nav links
+      document.querySelectorAll('.nav-bar .options a').forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const section = document.querySelector(this.getAttribute('href'));
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+
+      // Active nav link highlight
+      const sections = document.querySelectorAll('section, .container, .about-section');
+      const navLinks = document.querySelectorAll('.nav-bar .options a');
+      window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+          const top = section.offsetTop - 120;
+          const height = section.offsetHeight;
+          if (window.scrollY >= top && window.scrollY < top + height) {
+            current = section.id;
+          }
+        });
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href').includes(current)) {
+            link.classList.add('active');
+          }
+        });
+      });
+
+      // Typed.js for Hero Title
+      new Typed(".typing", {
+        strings: ["Full Stack Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: false
+      });
     });
   </script>
-
-  <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const circles = document.querySelectorAll(".outer-circle");
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const circle = entry.target;
-          const targetPercent = parseInt(circle.dataset.percent);
-          let current = 0;
-
-          const animate = () => {
-            if (current <= targetPercent) {
-              circle.style.setProperty('--fill', current);
-              current++;
-              requestAnimationFrame(animate);
-            }
-          };
-
-          animate();
-          observer.unobserve(circle);
-        }
-      });
-    }, { threshold: 0.4 });
-
-    circles.forEach(circle => observer.observe(circle));
-  });
-</script>
-
-
 </body>
 </html>

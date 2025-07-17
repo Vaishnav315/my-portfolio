@@ -15,7 +15,6 @@
   color: var(--text-secondary);
 }
 
-
 /* about section */
 .about-header {
   text-align: center;
@@ -67,12 +66,21 @@
 }
 
 .about-hire-button {
-  width: 200px;
-  padding: 10px 50px;
+  width: 240px;
+  padding: 20px 50px;
   background-color: var(--accent);
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   border: none;
   border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.about-hire-button:hover{
+  background-color: rgb(242, 100, 6);
+  box-shadow: 0 8px 20px rgba(255,123,78,0.4);
+  font-size: 20px;
+}
+

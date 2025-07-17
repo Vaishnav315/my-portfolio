@@ -60,6 +60,7 @@ body{
   background-color: rgb(238, 112, 27);
   border-radius: 6px;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(238, 112, 27, 0.8);;
 }
 
 .hire-me a:hover{

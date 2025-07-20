@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaishnav Nath | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-moon"></i>
+  </div>
+  
+  <div class="main-container">
+    <!-- Navigation bar -->
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="#">VN</a>
+      </div>
+      <div class="options">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about-me">About me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact me</a>
+      </div>
+      <div class="hire-me">
+        <a href="#contact">Hire Me</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-menu" id="closeMenu">
+        <i class="fas fa-times"></i>
+      </div>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about-me">About me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact me</a>
+      <a href="#contact" class="btn-hire">Hire Me</a>
+    </div>
+
+    <!-- Hero-section -->
+    <div class="hero-section" id="home">
+      <div class="left-content">
+        <p class="intro-text fade-in">Hi, I am</p>
+        <h1 class="developer-name fade-in delay-1">Vaishnav Nath</h1>
+        <h2 class="developer-title fade-in delay-2"><span>Full Stack Developer</span></h2>
+
+        <div class="social-icons fade-in delay-3">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <div class="hero-buttons fade-in delay-4">
+          <a href="#contact" class="btn-hire"><i class="fas fa-paper-plane"></i> Hire Me</a>
+          <a href="#" class="btn-download"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+
+        <div class="stats fade-in delay-5">
+          <div class="stat">
+            <span>5+</span>
+            <p>Experiences</p>
+          </div>
+          <div class="stat">
+            <span>20+</span>
+            <p>Project done</p>
+          </div>
+          <div class="stat">
+            <span>80+</span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-image fade-in">
+        <div class="profile-image-container">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Profile Image" class="profile-image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Page -->
+    <div class="container" id="services">
+      <header class="services-header">
+        <h2 class="section-title fade-in">Services</h2>
+        <p class="section-subtitle fade-in">
+          I create exceptional digital experiences that blend beautiful design with seamless functionality. My services are tailored to bring your vision to life.
+        </p>
+      </header>
+
+      <section class="services">
+        <div class="services-grid">
+          <div class="service-card from-left fade-in">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h3 class="service-title">App Design</h3>
+            <p class="service-description">Creating intuitive mobile apps for all platforms with modern UI/UX principles.</p>
+          </div>
+
+          <div class="service-card from-top fade-in">
+            <i class="fas fa-lightbulb service-icon"></i>
+            <h3 class="service-title">UX Strategy</h3>
+            <p class="service-description">Aligning business goals with user needs through thoughtful design strategies.</p>
+          </div>
+
+          <div class="service-card from-right fade-in">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h3 class="service-title">Web Design</h3>
+            <p class="service-description">Building responsive, visually appealing websites that engage your audience.</p>
+          </div>
+
+          <div class="service-card from-left fade-in">
+            <i class="fas fa-code service-icon"></i>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-description">Interactive UIs with React, JavaScript, and modern CSS frameworks.</p>
+          </div>
+
+          <div class="service-card from-bottom fade-in">
+            <i class="fas fa-database service-icon"></i>
+            <h3 class="service-title">Backend Development</h3>
+            <p class="service-description">Scalable APIs and server solutions with Node.js and databases.</p>
+          </div>
+
+          <div class="service-card from-right fade-in">
+            <i class="fas fa-lock service-icon"></i>
+            <h3 class="service-title">Security Solutions</h3>
+            <p class="service-description">JWT, RBAC, validation, and secure sessions for your applications.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-header">
+      <div class="about-title fade-in">About Me</div>
+      <p class="about-subtitle fade-in">User Interface, User Experience & Full Stack Development</p>
+    </div>
+
+    <section class="about-section" id="about-me">
+      <div class="about-container">
+        <div class="about-image fade-in">
+          <img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Profile or Work Image" />
+        </div>
+        <div class="about-content">
+          <p class="about-description fade-in">
+            I'm a passionate Full Stack Developer with over 5 years of experience creating innovative digital solutions. My expertise spans both frontend and backend development, with a special focus on creating intuitive user experiences and robust systems.
+            <br><br>
+            My journey in tech began at a young age, and I've since worked with startups and established companies to bring their digital visions to life. I believe in clean, efficient code and designs that prioritize the user experience.
+            <br><br>
+            When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers. I'm constantly learning and pushing my boundaries to stay at the forefront of web development.
+          </p>
+          <button class="about-hire-button fade-in"><i class="fas fa-download"></i> Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="experience-section">
+      <div class="experience-container">
+        <div class="skill fade-in">
+          <div class="outer-circle" data-percent="100">
+            <div class="inner-circle">
+              <i class="fa-brands fa-js"></i>
+            </div>
+          </div>
+          <h3>100%</h3>
+          <p>JavaScript</p>
+        </div>
+
+        <div class="skill fade-in delay-1">
+          <div class="outer-circle" data-percent="95">
+            <div class="inner-circle">
+              <i class="fa-brands fa-react"></i>
+            </div>
+          </div>
+          <h3>95%</h3>
+          <p>React</p>
+        </div>
+
+        <div class="skill fade-in delay-2">
+          <div class="outer-circle" data-percent="90">
+            <div class="inner-circle">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+          </div>
+          <h3>90%</h3>
+          <p>Node.js</p>
+        </div>
+
+        <div class="skill fade-in delay-3">
+          <div class="outer-circle" data-percent="85">
+            <div class="inner-circle">
+              <i class="fa-brands fa-python"></i>
+            </div>
+          </div>
+          <h3>85%</h3>
+          <p>Python</p>
+        </div>
+
+        <div class="skill fade-in delay-4">
+          <div class="outer-circle" data-percent="95">
+            <div class="inner-circle">
+              <i class="fa-solid fa-database"></i>
+            </div>
+          </div>
+          <h3>95%</h3>
+          <p>Database</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    
+    <header class="portfolio-header" id="portfolio">
+        <div class="portfolio">
+            <h1>Creative Portfolio</h1>
+        </div>
+        <div class="skills">
+            <div class="all active">
+                <h3>All Projects</h3>
+            </div>
+            <div class="all">
+                <h3>Web Design</h3>
+            </div>
+            <div class="all">
+                <h3>Mobile Apps</h3>
+            </div>
+            <div class="all">
+                <h3>Desktop Apps</h3>
+            </div>
+            <div class="all">
+                <h3>UI/UX Design</h3>
+            </div>
+        </div>
+    </header>
+    
+    <section class="projects">
+        <div class="project">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Weather Dashboard">
+            </div>
+            <div class="project-description">
+                <h2>Weather Dashboard</h2>
+                <p>Real-time weather visualization with forecasts, alerts, and location-based recommendations.</p>
+                <div class="project-tags">
+                    <span class="project-tag">UI/UX Design</span>
+                    <span class="project-tag">Dashboard</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1598717873798-1b78ebe04fc2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEZpdG5lc3MlMjBUcmFja2VyJTIwQXBwfGVufDB8fDB8fHww" alt="Fitness Tracker">
+            </div>
+            <div class="project-description">
+                <h2>Fitness Tracker App</h2>
+                <p>Mobile application for tracking workouts, nutrition, and progress with personalized recommendations.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Mobile App</span>
+                    <span class="project-tag">Health</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1748439281934-2803c6a3ee36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RmluYW5jZSUyMERhc2hib2FyZHxlbnwwfHwwfHx8MA%3D%3D" alt="Finance Dashboard">
+            </div>
+            <div class="project-description">
+                <h2>Finance Dashboard</h2>
+                <p>A modern financial analytics dashboard with real-time data visualization and reporting features.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Web Design</span>
+                    <span class="project-tag">Dashboard</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-img">
+                <img src="https://plus.unsplash.com/premium_photo-1683288706157-9913483dffc8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RSUyMGNvbW1lcmNlJTIwUGxhdGZvcm18ZW58MHx8MHx8fDA%3D" alt="E-commerce Platform">
+            </div>
+            <div class="project-description">
+                <h2>E-commerce Platform</h2>
+                <p>Complete online shopping solution with inventory management, payment processing, and analytics.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Web Design</span>
+                    <span class="project-tag">E-commerce</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fFRhc2slMjBNYW5hZ2VtZW50JTIwU3lzdGVtfGVufDB8fDB8fHww" alt="Task Management">
+            </div>
+            <div class="project-description">
+                <h2>Task Management System</h2>
+                <p>Collaborative task management tool with team assignments, progress tracking, and reporting.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Desktop App</span>
+                    <span class="project-tag">Productivity</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-img">
+                <img src="https://plus.unsplash.com/premium_photo-1663088923485-58685ba14d5f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VHJhdmVsJTIwUGxhbm5lcnxlbnwwfHwwfHx8MA%3D%3D" alt="Travel Planner">
+            </div>
+            <div class="project-description">
+                <h2>Travel Planner</h2>
+                <p>Mobile application for planning trips, booking accommodations, and discovering attractions.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Mobile App</span>
+                    <span class="project-tag">Travel</span>
+                </div>
+                <div class="project-actions">
+                    <button class="btn-view"><i class="fas fa-eye"></i> Live Demo</button>
+                    <button class="btn-source"><i class="fab fa-github"></i> Source</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact">
+      <div class="contact-header">
+        <h2 class="section-title fade-in">Contact Me</h2>
+        <p class="section-subtitle fade-in">Have a project in mind? Let's work together to make it happen</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form fade-in">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info fade-in delay-1">
+          <div class="contact-info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>contact@vaishnavnath.com</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 (123) 456-7890</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>New York, NY, USA</p>
+            </div>
+          </div>
+          <div class="contact-social">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+          <div class="map-container">
+            <div class="map-placeholder">
+              <i class="fas fa-map-marked-alt"></i>
+              <p>New York, NY, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="copyright">
+          <p>© 2023 Vaishnav Nath. All Rights Reserved.</p>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Mobile menu toggle
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const closeMenu = document.getElementById('closeMenu');
+      
+      hamburger.addEventListener('click', () => {
+        mobileMenu.classList.add('active');
+      });
+      
+      closeMenu.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+      });
+      
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('.mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('active');
+        });
+      });
+      
+      // Service cards animation
+      const serviceCards = document.querySelectorAll('.service-card');
+      const serviceObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        });
+      }, { threshold: 0.2 });
+      
+      serviceCards.forEach(card => serviceObserver.observe(card));
+      
+      // Skills animation
+      const circles = document.querySelectorAll(".outer-circle");
+      const circleObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const circle = entry.target;
+            const targetPercent = parseInt(circle.dataset.percent);
+            let current = 0;
+            
+            // Reset the conic gradient
+            circle.style.background = `conic-gradient(var(--primary) 0%, var(--dark) 0%)`;
+            
+            const animate = () => {
+              if (current <= targetPercent) {
+                circle.style.background = `conic-gradient(var(--primary) ${current}%, var(--dark) ${current}%)`;
+                current++;
+                requestAnimationFrame(animate);
+              }
+            };
+            
+            animate();
+            circleObserver.unobserve(circle);
+          }
+        });
+      }, { threshold: 0.4 });
+      
+      circles.forEach(circle => circleObserver.observe(circle));
+      
+      // Scroll progress bar
+      window.onscroll = function() {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        
+        // Show/hide back to top button
+        const backToTop = document.getElementById('backToTop');
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+          backToTop.classList.add('visible');
+        } else {
+          backToTop.classList.remove('visible');
+        }
+      };
+      
+      // Back to top functionality
+      document.getElementById('backToTop').addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+      
+      // Section entrance animations
+      const sections = document.querySelectorAll('section, .container, .about-header, .portfolio-header, .contact-section');
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      sections.forEach(section => sectionObserver.observe(section));
+      
+      // Contact form submission
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Show success message
+          const submitBtn = this.querySelector('.btn-submit');
+          submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+          submitBtn.style.background = 'var(--success)';
+          
+          // Reset after 3 seconds
+          setTimeout(() => {
+            contactForm.reset();
+            submitBtn.innerHTML = 'Send Message';
+            submitBtn.style.background = 'linear-gradient(90deg, var(--primary), var(--secondary))';
+          }, 3000);
+        });
+      }
+      
+      // Theme toggle
+      const themeToggle = document.getElementById('themeToggle');
+      themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('light-theme');
+        const icon = themeToggle.querySelector('i');
+        if (document.body.classList.contains('light-theme')) {
+          icon.classList.remove('fa-moon');
+          icon.classList.add('fa-sun');
+          
+        } else {
+          icon.classList.remove('fa-sun');
+          icon.classList.add('fa-moon');
+          
+        }
+      });
+      
+      // Project filtering
+      const filterButtons = document.querySelectorAll('.skills .all');
+      const projects = document.querySelectorAll('.project');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const filterValue = this.querySelector('h3').textContent.trim();
+          
+          // Filter projects
+          projects.forEach(project => {
+            const projectTags = project.querySelectorAll('.project-tag');
+            let hasTag = false;
+            
+            if(filterValue === 'All Projects') {
+              project.style.display = 'block';
+              return;
+            }
+            
+            projectTags.forEach(tag => {
+              if (
+                tag.textContent.toLowerCase().includes(filterValue.toLowerCase()) ||
+                filterValue.toLowerCase().includes(tag.textContent.toLowerCase())
+              ) { 
+                hasTag = true; 
+              }
+            });
+            
+            if(hasTag) {
+              project.style.display = 'block';
+            } else {
+              project.style.display = 'none';
+            }
+          });
+        });
+      });
+      
+      // Project hover effects
+      projects.forEach(project => {
+        project.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-10px)';
+        });
+        
+        project.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0)';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
